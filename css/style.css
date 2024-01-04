@@ -1,0 +1,933 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+body {
+
+    height: 5000px;
+    background-color: rgb(37, 37, 37) !important;
+
+    /*cursor: url("/img/peko\ walk.gif"), auto;*/
+
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.js-cont {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.js-scroll {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    will-change: transform;
+}
+
+.p {
+
+    color: #fff;
+}
+
+/* TEXT ANIMATION TRY START HERE*/
+
+
+/* TEXT ANIMATION TRY START HERE*/
+
+
+/* NAV_BAR START START HERE*/
+
+.navbar-brand {
+
+    width: 530px;
+    height: auto;
+    margin-top: -30px;
+
+}
+
+.navbar {
+    height: 130px;
+    padding: 22px 0px;
+    background-color: rgba(0, 0, 0, 0.644) !important;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.815) !important;
+    transition: all 0. 3s ease-in-out;
+
+}
+
+.navbar ul li a {
+
+    content: "";
+    color: rgb(255, 255, 255) !important;
+    text-transform: uppercase;
+    font-weight: 5000%;
+    letter-spacing: 2px;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.navbar ul li a:hover {
+    font-weight: 1000;
+    content: "";
+    border: -1px solid;
+    border-radius: 10%;
+    border: 2px solid #0080ff !important;
+    background-color: rgb(0, 0, 0) !important;
+    border-bottom: linear-gradient(45deg, black, rgba(255, 255, 255, 0.356));
+    -webkit-box-reflect: below 5px -webkit-linear-gradient(transparent, rgba(216, 202, 202, 0.377)) !important;
+    box-shadow: 10px 4px 4px 4px white;
+}
+
+.navbar-toggle {
+
+    border: 1px solid rgb(255, 255, 255) !important;
+    transition: all 0.1s ease-in-out;
+
+}
+
+.navbar-toggle:hover {
+
+    background-color: rgb(202, 198, 198) !important;
+
+}
+
+.navabr-inverse .navbar-collapse {
+
+    border-color: transparent !important;
+
+}
+
+/* NAV_BAR ENDS HERE  */
+
+
+
+/* SLIDER START  */
+
+.slider {
+
+    width: 100%;
+    height: 700px;
+    background-image: url(/img/WALLPAPER5.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+.slider-overlay {
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.301);
+    position: relative;
+    color: white;
+
+}
+
+.slider-content {
+
+    position: absolute;
+    top: 40%;
+    width: 100%;
+
+}
+
+.icons .fa {
+
+    font-size: 44px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-right: 19px;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #000000;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    border-radius: 10px;
+    background: #444444;
+ 
+
+}
+
+.icons .fa.fa-apple:hover {
+
+    filter: invert(100%);
+    border: 100% !important;
+    border: #000000;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #000000;
+    background: linear-gradient(black, rgba(54, 52, 52, 0.548));
+    color: rgb(255, 255, 255) !important;
+    
+    
+
+}
+
+.icons .fa.fa-android:hover {
+
+    filter: invert(100%);
+    border: 100% !important;
+    border: #000000;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #000000;
+    background: linear-gradient(black, rgba(54, 52, 52, 0.548));
+    color: rgb(255, 255, 255) !important;
+    
+    
+
+}
+
+.icons .fa.fa-windows:hover {
+
+    filter: invert(100%);
+    border: 100% !important;
+    border: #000000;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #000000;
+    background: linear-gradient(black, rgba(54, 52, 52, 0.548));
+    color: rgb(255, 255, 255) !important;
+    
+    
+
+}
+
+.cta-div {
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+
+}
+
+.btn1 {
+
+    padding: 13px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid white;
+    border-top-left-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 20px;
+
+}
+
+.btn1:hover {
+
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 102, 255, 0.432);
+
+}
+
+.btn2 {
+
+    padding: 13px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font: size 13px;
+    border: 2px solid white;
+    border-bottom-right-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 55px;
+
+}
+
+.btn2:hover {
+
+    text-decoration: none;
+    color: white;
+    background-color: rgba(231, 12, 12, 0.568);
+
+}
+
+
+
+/* SLIDER ENDS */
+
+
+/* SOCIAL NETWORK DESIGN */
+
+.social-networks a.fa {
+
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    width: 90px;
+    height: 90px;
+    font-size: 50px;
+    border-radius: 25px;
+    border: 3px solid rgb(0, 0, 0);
+    margin-right: 20px;
+    transition: all 0.4s ease-in-out;
+    background: linear-gradient(black, rgba(54, 52, 52, 0.548));
+}
+
+.social-networks a.fa:hover {
+
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: rgba(105, 104, 105, 0.4) 0px 5px, rgba(41, 41, 41, 0.3) 0px 10px, rgba(29, 29, 29, 0.2) 0px 15px, rgba(49, 48, 49, 0.1) 0px 20px, rgba(26, 26, 26, 0.05) 0px 25px;
+
+
+
+}
+
+.social-networks a.fa.fa-facebook:hover {
+    background: #0080ff;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 60, 255);
+    -webkit-box-reflect: below 5px -webkit-linear-gradient(transparent, rgba(216, 202, 202, 0.699)) !important;
+
+
+
+}
+
+.social-networks a.fa.fa-instagram:hover {
+
+    background: #0080ff;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 255);
+    -webkit-box-reflect: below 5px -webkit-linear-gradient(transparent, rgba(216, 202, 202, 0.699)) !important;
+
+}
+
+.social-networks a.fa.fa-twitter:hover {
+
+    background: #0080ff;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 162, 255);
+    -webkit-box-reflect: below 5px -webkit-linear-gradient(transparent, rgba(216, 202, 202, 0.699)) !important;
+
+
+}
+
+
+
+.slider .text,
+.slider .typed-cursor {
+    display: inline;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+.primary {
+    color: rgb(0, 0, 0);
+    font: display 100px;
+}
+
+
+.typed-cursor {
+    opacity: 1;
+    animation: blink 0.7s infinite;
+    -webkit-animation: blink 0.7s infinite;
+    -mox-animation: blink 0.7s infinite;
+
+
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+/*===================WHEN YOU SCROLL AND IT CHANGE NEW COLOR START HERE====================*/
+
+.secondary {
+    transition: all 0.5s ease-in-out;
+    background-color: #000000 !important;
+    border-bottom: 5px solid #0080ff !important;
+
+}
+
+/*===================WHEN YOU SCROLL AND IT CHANGE NEW COLOR END HERE====================*/
+
+
+.service-area {
+    background: fixed;
+
+}
+
+header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 60px;
+    z-index: 100000;
+
+}
+
+header.sticky {
+
+    padding: 45px 20px;
+    background: rgba(0, 0, 0, 0.664);
+
+}
+
+
+
+
+
+
+/* Services Styles */
+.row p {
+    color: #b3adad;
+    transition: all 0.3s ease-in-out;
+}
+
+.row p:hover {
+    color: #ffffff;
+}
+
+.b {
+    color: aliceblue;
+}
+
+.service-area {
+    height: 1000px;
+    margin-top: 30px;
+    background: linear-gradient(black, rgba(54, 52, 52, 0.548));
+
+}
+
+.service-area p {
+    margin-bottom: -5px;
+}
+
+
+
+
+.service-wrap {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.795);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    transition: all .5s ease 0s;
+    z-index: 9;
+    margin-top: 9px;
+    border: 3px solid rgb(24, 23, 23);
+    border-radius: 10%;
+    background: linear-gradient(black, rgba(54, 52, 52, 0.548));
+    ;
+}
+
+.service-wrap:hover {
+    border: 3px solid #0080ff !important;
+    box-shadow: 10px 4px 4px 4px white;
+}
+
+.service-wrap::before,
+.service-wrap::after {
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9;
+    transition: all .5s;
+    opacity: 0;
+    background-color: #1e1e1f;
+
+
+}
+
+.service-wrap::before {
+    top: -37px;
+    left: 100%;
+}
+
+.service-wrap:hover:before {
+    left: -27px;
+    opacity: 1;
+}
+
+.service-wrap::after {
+    right: 100%;
+    bottom: -37px;
+}
+
+.service-wrap:hover:after {
+    right: -27px;
+    opacity: 1;
+}
+
+.service-wrap:hover {
+    color: white;
+
+}
+
+.service-wrap:h3 {
+    color: white;
+}
+
+.service-wrap:hover h3 {
+    color: white;
+}
+
+.service-wrap:hover h3:after {
+    background-color: white;
+}
+
+.service-icon i {
+    font-size: 30px;
+    margin-bottom: 20px;
+    transform: all .5s;
+}
+
+.service-wrap:hover .service-icon i {
+    transform: rotate(360deg);
+}
+
+.service-wrap h3 {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.service-wrap p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.col-md-4 {
+    cursor: pointer;
+}
+
+b,
+strong {
+    cursor: default;
+    color: rgb(248, 252, 252);
+}
+
+
+
+/* Service Style End */
+
+
+
+
+/* Work Markup Start */
+
+.border-bottom2 {
+    width: 100px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+
+
+
+.team-members h4 {
+    color: #d3c7c7 !important;
+}
+
+
+.work.wow.bounceInUp h2 {
+    color: #777474;
+    transition: all .5s;
+}
+
+.work.wow.bounceInUp {
+
+    background: linear-gradient(black, rgba(54, 52, 52, 0.548));
+
+}
+
+
+.work.wow.bounceInUp p {
+    color: #777474;
+    transition: all .5s;
+}
+
+.work.wow.bounceInUp p:hover {
+    color: #ffffff;
+}
+
+.work.wow.bounceInUp h2:hover {
+    color: #ffffff;
+}
+
+.para1 {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.h2,
+h2 {
+    text-align: center;
+}
+
+.row.no-gutters [class*=col-] {
+    padding: auto;
+}
+
+.row.no-gutters {
+    width: 100%;
+    height: 100%;
+}
+
+.row.no-gutters img {
+
+    width: 500%;
+    height: 500%;
+}
+
+
+.img-wrapper {
+    padding-bottom: 10%;
+    padding-bottom: 10%;
+    overflow: hidden !important;
+    border-radius: 5%;
+
+}
+
+.img-wrapper img {
+    transition: transform .5s ease-in-out;
+    width: 100%;
+    border-radius: 5%;
+    margin: auto;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+/* Work Markup End */
+
+
+
+
+
+
+/* Team markup Start */
+
+#team {
+    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(43, 42, 42, 0.89));
+
+}
+
+.teams h2 {
+
+    color: #ffffff;
+}
+
+.teams p {
+
+    color: #ffffff;
+}
+
+
+.col-md-12 {
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+
+}
+
+.owl-carousel .owl-item img {
+    overflow: hidden !important;
+    width: 100%;
+    border: 4px solid transparent;
+    transition: transform .10s ease-in-out;
+    border-radius: 10%;
+    padding: 5px;
+
+}
+
+.owl-carousel .owl-item img:hover {
+
+    border: 2px solid #000000;
+    border-radius: 10%;
+    padding: 10px;
+    box-shadow: rgba(105, 104, 105, 0.4) 0px 5px, rgba(41, 41, 41, 0.3) 0px 10px, rgba(29, 29, 29, 0.2) 0px 15px, rgba(49, 48, 49, 0.1) 0px 20px, rgba(26, 26, 26, 0.05) 0px 25px;
+    filter: invert(100%);
+
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.border-bottom3 {
+    width: 550px;
+    height: 1px;
+    background-color: transparent !important;
+    margin: 0 auto;
+}
+
+
+
+.team-member-info {
+    padding: 10px 0 30px 0;
+}
+
+h4.team-member-name {
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+
+h4.team-member-designation {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.social-list {
+    padding-left: 0;
+}
+
+#social-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.social-list li {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.social-list i {
+    font-size: 10px;
+}
+
+.icon-gray i {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+/* TEAM MARKUP ENDS HERE*/
+
+
+
+
+
+
+/* Testimonial Markup Start */
+
+.testimonials {
+    color: white;
+    background-image: url(..//img/Testimonial/BACKGROUND.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 250px;
+}
+
+.testimonials .carousel-indicators {
+    bottom: -60px;
+}
+
+.border-bottom {
+    width: 150px;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.carousel-inner p {
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.carousel-inner img {
+    width: 200px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid white;
+    padding: 5px;
+}
+
+/* Testimonial Markup End */
+
+/* Carrier Markup Start */
+
+.faq {
+    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(20, 20, 20, 0.377));
+}
+
+.border-bottom4 {
+    width: 250px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+
+.accordion {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.accordion-header {
+    box-shadow: rgba(105, 104, 105, 0.4) 0px 5px, rgba(41, 41, 41, 0.3) 0px 10px, rgba(29, 29, 29, 0.2) 0px 15px, rgba(49, 48, 49, 0.1) 0px 20px, rgba(26, 26, 26, 0.05) 0px 25px;
+    background-color: #000000;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.accordion-content {
+    display: none;
+    padding: 20px;
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+.sub-heading p {
+    color: #fff !important;
+}
+
+/* Carrier Markup End */
+
+/* Location Markup Starts */
+
+.border-bottom5 {
+    width: 170px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.location {
+    background-color: rgba(255, 255, 255, 0.863) ;
+    text-align: center;
+    background: #0080ff;
+    padding-top: 80px;
+    border-radius: 10%;
+    padding-bottom: 100px;
+    color: rgb(0, 0, 0) !important;
+
+}
+
+.iframe-container {
+    position: relative;
+    width: 58%;
+    /* Adjust the width as needed */
+    margin: 0 auto;
+    /* Center the container */
+    border: 4px solid black;
+    /* Add a black border */
+    overflow: hidden;
+    /* Ensure the border doesn't affect layout */
+}
+
+/* Location Markup End */
